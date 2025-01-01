@@ -30,7 +30,7 @@ export function Services() {
                   </div>
                   <div className="mt-8">
                     <h3 className="text-lg font-medium">
-                      <a href="#" className="focus:outline-none">
+                      <a href="/services" className="focus:outline-none">
                         <span className="absolute inset-0" aria-hidden="true" />
                         {service.title}
                       </a>
