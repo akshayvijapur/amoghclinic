@@ -42,9 +42,12 @@ export function ServicesList() {
                       </li>
                     ))}
                   </ul>
-                  <button className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
-                    Book Appointment
-                  </button>
+                  <button
+  onClick={() => window.location.href = 'https://api.whatsapp.com/send?phone=+918050318808&text=I%20want%20to%20book%20an%20appointment'}
+  className="w-full text-left bg-blue-600 text-white px-3 py-2 rounded-md hover:bg-blue-700 transition-colors duration-200"
+>
+  Book Appointment
+</button>
                 </div>
               </div>
             );
