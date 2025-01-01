@@ -4,27 +4,11 @@ import { DoctorCard } from '../components/DoctorCard';
 const doctors = [
   {
     id: '1',
-    name: 'Dr. Sarah Johnson',
-    credentials: 'MD, MBBS',
-    specialty: 'Cardiologist',
-    imageUrl: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    biography: 'Dr. Johnson is a renowned cardiologist with over 15 years of experience in treating complex cardiac conditions.'
-  },
-  {
-    id: '2',
-    name: 'Dr. Michael Chen',
-    credentials: 'MD, DM',
-    specialty: 'Neurologist',
-    imageUrl: 'https://images.unsplash.com/photo-1537368910025-700350fe46c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    biography: 'Dr. Chen specializes in neurological disorders and has pioneered several innovative treatment methods.'
-  },
-  {
-    id: '3',
-    name: 'Dr. Emily Rodriguez',
-    credentials: 'MBBS, MS',
-    specialty: 'Orthopedic Surgeon',
-    imageUrl: 'https://images.unsplash.com/photo-1594824476967-48c8b964273f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    biography: 'Dr. Rodriguez is an expert in joint replacement surgery and sports medicine.'
+    name: 'Dr. Avadusidda Arakeri',
+    credentials: 'M.B.B.S, M.D(General Medicine)',
+    specialty: 'General Physician, Cardiologist',
+    imageUrl: 'https://amoghamultispecialityclinic.github.io/img/team1.jpg',
+    biography: 'Dr. Avadusidda Arakeri is a renowned General physician with over 5 years of experience in treating complex health conditions.'
   }
 ];
 

@@ -4,24 +4,21 @@ import { Star } from 'lucide-react';
 const testimonials = [
   {
     id: 1,
-    content: "The care I received was exceptional. The doctors were knowledgeable and caring, making me feel comfortable throughout my treatment.",
-    author: "Sarah Johnson",
+    content: "Amogha Hospital is our family's go-to for healthcare. They provide comprehensive services, and the doctors are knowledgeable and caring. I trust them with my family's health.",
+    author: "Mahesh Mirgi",
     role: "Patient",
-    imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
   },
   {
     id: 2,
-    content: "State-of-the-art facilities and a compassionate staff. They went above and beyond to ensure my recovery was smooth.",
-    author: "Michael Chen",
+    content: "I visited Amogha Hospital for my father health check-up. Doctor is well experienced and treated my father for diabetes.",
+    author: "Akshay vijapur",
     role: "Patient",
-    imageUrl: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
   },
   {
     id: 3,
-    content: "The medical team here is simply outstanding. Their expertise and dedication to patient care is evident in everything they do.",
-    author: "Emily Rodriguez",
+    content: "I've been coming to Amogha for my diabetes care, and the doctors are fantastic. They helped me manage my condition effectively. The staff is caring and professional",
+    author: "Shridhar Nimbargi",
     role: "Patient",
-    imageUrl: "https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
   },
 ];
 
@@ -53,11 +50,7 @@ export function Testimonials() {
               </div>
               <p className="text-gray-600 mb-6">{testimonial.content}</p>
               <div className="flex items-center">
-                <img
-                  className="h-12 w-12 rounded-full"
-                  src={testimonial.imageUrl}
-                  alt={testimonial.author}
-                />
+               
                 <div className="ml-4">
                   <p className="text-lg font-medium text-gray-900">
                     {testimonial.author}

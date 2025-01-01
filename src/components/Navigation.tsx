@@ -71,9 +71,12 @@ export function Navigation() {
                 {item.name}
               </Link>
             ))}
-            <button className="w-full text-left bg-blue-600 text-white px-3 py-2 rounded-md hover:bg-blue-700 transition-colors duration-200">
-              Book Appointment
-            </button>
+            <button
+  onClick={() => window.location.href = 'https://api.whatsapp.com/send?phone=+918050318808&text=I%20want%20to%20book%20an%20appointment'}
+  className="w-full text-left bg-blue-600 text-white px-3 py-2 rounded-md hover:bg-blue-700 transition-colors duration-200"
+>
+  Book Appointment
+</button>
           </div>
         </div>
       )}

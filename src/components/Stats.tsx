@@ -1,11 +1,9 @@
-import React from 'react';
-import { Users, Award, Building2, Heart } from 'lucide-react';
+import { Users, Award, Building2 } from 'lucide-react';
 
 const stats = [
   { id: 1, name: 'Happy Patients', value: '10,000+', icon: Users },
-  { id: 2, name: 'Expert Doctors', value: '50+', icon: Award },
-  { id: 3, name: 'Years Experience', value: '25+', icon: Building2 },
-  { id: 4, name: 'Successful Surgeries', value: '15,000+', icon: Heart },
+  { id: 2, name: 'Expert Doctors', value: '2+', icon: Award },
+  { id: 3, name: 'Years Experience', value: '5+', icon: Building2 },
 ];
 
 export function Stats() {

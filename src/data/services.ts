@@ -15,24 +15,18 @@ export const services = [
   },
   {
     id: '3',
-    title: 'Neurology',
-    description: 'Expert care for neurological conditions and disorders',
+    title: 'Diabetes care',
+    description: 'Expert care for Diabetes',
     icon: Brain,
   },
   {
     id: '4',
-    title: 'Ophthalmology',
-    description: 'Complete eye care and vision correction services',
+    title: 'Obstetrics & Gynecology (OBG) services',
+    description: 'Complete care of lifecycle from pregnancy to birth',
     icon: Eye,
   },
   {
     id: '5',
-    title: 'Orthopedics',
-    description: 'Specialized care for bones, joints, and muscles',
-    icon: Bone,
-  },
-  {
-    id: '6',
     title: 'Emergency Care',
     description: '24/7 emergency medical services',
     icon: Stethoscope, // Changed from FirstAid to Stethoscope

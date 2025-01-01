@@ -31,48 +31,34 @@ export const detailedServices = [
   },
   {
     id: '3',
-    title: 'Neurology',
-    description: 'Expert care for neurological conditions and disorders',
+    title: ' Diabetes care',
+    description: 'Expert care for Diabetes',
     icon: Brain,
     details: [
-      'Neurological disorders treatment',
-      'Brain and spine surgery',
-      'Stroke care and rehabilitation',
-      'Epilepsy monitoring',
-      'Movement disorders treatment'
+      'Personalized blood sugar management and monitoring',
+      'Lifestyle changes and dietary counseling for diabetes',
+      'Diabetic neuropathy treatment and prevention',
+      'Education on insulin and medication management',
+      'Managing diabetes-related complications (e.g., heart disease, kidney problems, etc.)'
     ],
     image: 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80'
   },
   {
     id: '4',
-    title: 'Ophthalmology',
-    description: 'Complete eye care and vision correction services',
+    title: 'Obstetrics & Gynecology (OBG) services',
+    description: 'Complete care of lifecycle from pregnancy to birth',
     icon: Eye,
-    details: [
-      'Comprehensive eye exams',
-      'Laser eye surgery',
-      'Cataract surgery',
-      'Glaucoma treatment',
-      'Pediatric eye care'
+    details:[
+      'Comprehensive prenatal care and monitoring',
+      'Labor and delivery services with pain management options',
+      'Postpartum care for new mothers',
+      'Gynecological exams and screenings (e.g., Pap smears, breast exams)',
+      'Treatment for common gynecological conditions (e.g., fibroids, endometriosis, etc.)'
     ],
     image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80'
   },
   {
     id: '5',
-    title: 'Orthopedics',
-    description: 'Specialized care for bones, joints, and muscles',
-    icon: Bone,
-    details: [
-      'Joint replacement surgery',
-      'Sports medicine',
-      'Spine surgery',
-      'Fracture care',
-      'Physical therapy'
-    ],
-    image: 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80'
-  },
-  {
-    id: '6',
     title: 'Emergency Care',
     description: '24/7 emergency medical services',
     icon: Activity,
