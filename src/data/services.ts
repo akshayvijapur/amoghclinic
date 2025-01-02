@@ -1,4 +1,4 @@
-import { Heart, Stethoscope, Brain, Eye, Bone } from 'lucide-react';
+import { Heart, Stethoscope, Brain, UserCog } from 'lucide-react';
 
 export const services = [
   {
@@ -15,20 +15,14 @@ export const services = [
   },
   {
     id: '3',
-    title: 'Diabetes care',
-    description: 'Expert care for Diabetes',
+    title: 'Diabetes Care',
+    description: 'Expert care for Diabetes management',
     icon: Brain,
   },
   {
     id: '4',
-    title: 'Obstetrics & Gynecology (OBG) services',
-    description: 'Complete care of lifecycle from pregnancy to birth',
-    icon: Eye,
-  },
-  {
-    id: '5',
-    title: 'Emergency Care',
-    description: '24/7 emergency medical services',
-    icon: Stethoscope, // Changed from FirstAid to Stethoscope
-  },
+    title: 'Obstetrics & Gynecology',
+    description: 'Complete care throughout pregnancy and womens health',
+    icon: UserCog,
+  }
 ];

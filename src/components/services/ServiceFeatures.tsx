@@ -1,12 +1,7 @@
 import React from 'react';
-import { Clock, Award, Users, Shield } from 'lucide-react';
+import { Award, Users, Shield } from 'lucide-react';
 
 const features = [
-  {
-    name: '24/7 Availability',
-    description: 'Round-the-clock medical services for all your healthcare needs',
-    icon: Clock,
-  },
   {
     name: 'Expert Staff',
     description: 'Highly qualified and experienced medical professionals',
@@ -38,7 +33,7 @@ export function ServiceFeatures() {
         </div>
 
         <div className="mt-16">
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {features.map((feature) => {
               const IconComponent = feature.icon;
               return (

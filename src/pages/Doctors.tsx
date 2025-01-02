@@ -1,16 +1,6 @@
 import React from 'react';
 import { DoctorCard } from '../components/DoctorCard';
-
-const doctors = [
-  {
-    id: '1',
-    name: 'Dr. Avadusidda Arakeri',
-    credentials: 'M.B.B.S, M.D(General Medicine)',
-    specialty: 'General Physician, Cardiologist',
-    imageUrl: 'https://amoghamultispecialityclinic.github.io/img/team1.jpg',
-    biography: 'Dr. Avadusidda Arakeri is a renowned General physician with over 5 years of experience in treating complex health conditions.'
-  }
-];
+import { doctors } from '../data/doctors';
 
 export default function Doctors() {
   return (
@@ -20,7 +10,7 @@ export default function Doctors() {
           <h1 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">Our Medical Team</h1>
           <p className="mt-4 text-xl text-gray-600">Expert doctors committed to your health</p>
         </div>
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           {doctors.map(doctor => (
             <DoctorCard key={doctor.id} doctor={doctor} />
           ))}

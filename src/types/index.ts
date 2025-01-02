@@ -6,14 +6,15 @@ export interface Doctor {
   imageUrl: string;
   biography: string;
   education: string[];
-  certifications: string[];
-  languages: string[];
-  availableSlots: string[];
+  specializations: string[];
+  experience: string[];
 }
 
 export interface Service {
   id: string;
   title: string;
   description: string;
-  icon: string;
+  icon: React.ComponentType<any>;
+  details?: string[];
+  image?: string;
 }
